@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CashFlowControl</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CashFlowControl</h1>
+    <h2>Registration</h2>
+    <form action="/registration">
+        <p>
+            <label for="login">Set your login (min. 3 characters):</label>
+            <input type="text" id="login" name="login" required minlength="3" placeholder="login">
+        </p>
+        <p>
+            <label for="email">Type your email address:</label>
+            <input type="email" id="email" name="email" required minlength="3" placeholder="email@example.com">
+        </p>
+        <p>
+            <label for="password">Set your password (min. 3 characters):</label>
+            <input type="password" id="password" name="password" required minlength="3" placeholder="password">
+        </p>
+        <p>
+            <label for="confirmPassword">Confirm  your password:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required minlength="3" placeholder="confirm password">
+        </p>
+        <button>Register</button>
+        <button>Cancel</button>
+    </form>
+</body>
+<footer>
+    <p>Made by MarKowal</p>
+    <a href="https://github.com/MarKowal">About me</a>
+</footer>
+</html>
