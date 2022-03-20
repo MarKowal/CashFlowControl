@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CashFlowControl</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CashFlowControl</h1>
+    <h2>Main Menu > Add Expense</h2>
+    <nav>
+        <button>Add Income</button>
+        <button>Add Expense</button>
+        <button>Balance Sheet</button>
+        <button>Settings</button>
+        <Button>Log Out</Button>
+    </nav>
+    <form action="/addExpense">
+        <section>
+            <label for="amountExpense">Enter amount of expense:</label>
+            <input type="number" name="amountExpense" id="amountExpense" min="0.01" placeholder="amount" required>
+        </section>
+        <section>
+            <label for="dateExpense">Select date of expense:</label>
+            <input type="date" name="dateExpense" id="dateExpense" required>
+        </section>
+        <section>
+            <h3>Means of payment:</h3>
+            <input type="radio" name="payment" id="cash" value="cash">
+            <label for="cash">cash</label>
+            <input type="radio" name="payment" id="debitCard" value="debitCard">
+            <label for="debitCard">debit card</label>
+            <input type="radio" name="payment" id="creditCard" value="creditCard">
+            <label for="creditCard">credit card</label>
+            <input type="radio" name="payment" id="bankTransfer" value="bankTransfer">
+            <label for="bankTransfer">bank transfer</label>
+        </section>
+        <section>
+            <h3>Category:</h3>
+            <input type="radio" name="category" id="food" value="food">
+            <label for="food">food</label>
+            <input type="radio" name="category" id="apartment" value="apartment">
+            <label for="apartment">apartment</label>
+            <input type="radio" name="category" id="transport" value="transport">
+            <label for="transport">ctransport</label>
+            <input type="radio" name="category" id="telecommunication" value="telecommunication">
+            <label for="telecommunication">telecommunication</label>
+            <input type="radio" name="category" id="healthCare" value="healthCare">
+            <label for="healthCare">health care</label>
+            <input type="radio" name="category" id="clothes" value="clothes">
+            <label for="clothes">clothes</label>
+            <input type="radio" name="category" id="hygiene" value="hygiene">
+            <label for="hygiene">hygiene</label>
+            <input type="radio" name="category" id="children" value="children">
+            <label for="children">children</label>
+            <input type="radio" name="category" id="entertainment" value="entertainment">
+            <label for="entertainment">entertainment</label>
+            <input type="radio" name="category" id="tour" value="tour">
+            <label for="tour">tour</label>
+            <input type="radio" name="category" id="training" value="training">
+            <label for="training">training</label>
+            <input type="radio" name="category" id="books" value="books">
+            <label for="books">books</label>
+            <input type="radio" name="category" id="savings" value="savings">
+            <label for="savings">savings</label>
+            <input type="radio" name="category" id="retirement" value="retirement">
+            <label for="retirement">retirement</label>
+            <input type="radio" name="category" id="debtRepayment" value="debtRepayment">
+            <label for="debtRepayment">debt repayment</label>
+            <input type="radio" name="category" id="donation" value="donation">
+            <label for="donation">donation</label>
+            <input type="radio" name="category" id="otherExpense" value="otherExpense">
+            <label for="otherExpense">other expense</label><br>
+        </section>
+        <section>
+            <label for="comment">Comment:</label> <br>
+            <textarea name="comment" id="comment" cols="30" rows="2" placeholder="Type your comment here..."></textarea>
+        </section>
+        <section>
+            <button>Add Expense</button>
+            <button>Cancel</button>
+        </section>
+    </form>
+</body>
+<footer>
+    <p>Made by MarKowal</p>
+    <a href="https://github.com/MarKowal">About me</a>
+</footer>
+</html>
