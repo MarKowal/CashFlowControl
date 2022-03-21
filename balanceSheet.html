@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CashFlowControl</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CashFlowControl</h1>
+    <h2>Main Menu > Balance Sheet</h2>
+    <nav>
+        <button>Add Income</button>
+        <button>Add Expense</button>
+        <button>Balance Sheet</button>
+        <button>Settings</button>
+        <Button>Log Out</Button>
+    </nav>
+    <form action="/period">
+        <label for="period">Please select a period of time:</label>
+        <select name="period" id="period">
+            <option value="presentMonth">present month</option>
+            <option value="previousMonth">previous month</option>
+            <option value="presentYear">present year</option>
+            <option value="other">other period</option>
+        </select>
+        <button>Submit</button>
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th>Income categories</th>
+                <th>Total [PLN]</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>salary</td>
+                <td>100.00</td>
+            </tr>
+            <tr>
+                <td>bank interest</td>
+                <td>100.00</td>
+            </tr>
+            <tr>
+                <td>mail-order sale</td>
+                <td>100.00</td>
+            </tr>
+            <tr>
+                <td>other income</td>
+                <td>100.00</td>
+            </tr>
+            <tr>
+                <td>Sum of Incomes</td>
+                <td>400.00</td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th>Expense categories</th>
+                <th>Total [PLN]</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>food</td>
+                <td>100.00</td>
+            </tr>
+            <tr>
+                <td>apartment</td>
+                <td>100.00</td>
+            </tr>
+            <tr>
+                <td>telecommunication</td>
+                <td>100.00</td>
+            </tr>
+            <tr>
+                <td>health care</td>
+                <td>100.00</td>
+            </tr>
+            <tr>
+                <td>Sum of Expenses</td>
+                <td>400.00</td>
+            </tr>
+        </tbody>
+    </table>
+    <h3>Difference (incomes - expenses): </h3>
+    <p>[here will be pie-chart]</p>
+</body>
+<footer>
+    <p>Made by MarKowal</p>
+    <a href="https://github.com/MarKowal">About me</a>
+</footer>
+</html>
