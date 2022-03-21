@@ -1,3 +1,30 @@
+h1 {
+    font-family: 'Roboto', sans-serif;
+    background-color: #E63946;
+    color: #F1FAEE;
+}
+nav h2 {
+    color: #F1FAEE;
+    background-color: #457B9D;
+}
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: #F1FAEE;
+    color: #1D3557;
 }
+
+footer {
+    text-align: center;
+    font-size: small;
+}
+
+nav button {
+    color: #F1FAEE;
+    background-color: #457B9D;
+}
+
+form button {
+    color: #1D3557;
+    background-color: #F1FAEE;
+}
+
