@@ -1,3 +1,76 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: #F1FAEE;
+    color: #1D3557;
+    margin: 0 10% 0 10%;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    background-color: #E63946;
+    color: #F1FAEE;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 3em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+nav {
+    padding: 2% 0 0;
+}
+
+nav h2 {
+    color: #F1FAEE;
+    background-color: #457B9D;
+    height: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav button {
+    color: #F1FAEE;
+    background-color: #457B9D;
+    padding: 0.5em;
+    margin-right: 0.5em;
+    transform: skew(-7deg);
+}
+
+nav button:hover {
+    border-color: #E63946;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #E63946;
+    transform: translateY(-0.25em);
+    cursor:pointer;
+}
+
+form {
+    padding-bottom: 10%;
+}
+
+form button {
+    color: #1D3557;
+    background-color: #F1FAEE;
+    transform: skew(-7deg);
+}
+
+form button:hover {
+    cursor:pointer;
+}
+
+footer {
+    text-align: center;
+    font-size: small;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.periodFormBS {
+    padding-bottom: 2%;
 }
