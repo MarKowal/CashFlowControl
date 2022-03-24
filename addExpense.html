@@ -20,15 +20,15 @@
         <h2>Main Menu > Add Expense</h2>
     </nav>
     <form action="/addExpense">
-        <section>
+        <div>
             <label for="amountExpense">Enter amount of expense:</label>
             <input type="number" name="amountExpense" id="amountExpense" min="0.01" placeholder="amount" required>
-        </section>
-        <section>
+        </div>
+        <div>
             <label for="dateExpense">Select date of expense:</label>
             <input type="date" name="dateExpense" id="dateExpense" required>
-        </section>
-        <section>
+        </div>
+        <div>
             <h3>Means of payment:</h3>
             <input type="radio" name="payment" id="cash" value="cash">
             <label for="cash">cash</label>
@@ -38,8 +38,8 @@
             <label for="creditCard">credit card</label>
             <input type="radio" name="payment" id="bankTransfer" value="bankTransfer">
             <label for="bankTransfer">bank transfer</label>
-        </section>
-        <section>
+        </div>
+        <div>
             <h3>Category:</h3>
             <input type="radio" name="category" id="food" value="food">
             <label for="food">food</label>
@@ -75,19 +75,19 @@
             <label for="donation">donation</label>
             <input type="radio" name="category" id="otherExpense" value="otherExpense">
             <label for="otherExpense">other expense</label><br>
-        </section>
-        <section>
+        </div>
+        <div>
             <label for="comment">Comment:</label> <br>
             <textarea name="comment" id="comment" cols="30" rows="2" placeholder="Type your comment here..."></textarea>
-        </section>
-        <section>
+        </div>
+        <div>
             <button>Add Expense</button>
             <button>Cancel</button>
-        </section>
+        </div>
     </form>
+    <footer>
+        <p>Made by MarKowal</p>
+        <a href="https://github.com/MarKowal">About me</a>
+    </footer>
 </body>
-<footer>
-    <p>Made by MarKowal</p>
-    <a href="https://github.com/MarKowal">About me</a>
-</footer>
 </html>
