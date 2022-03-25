@@ -1,4 +1,3 @@
 # CashFlowControl
-My first HTML+CSS project
-Potentially web application in the future
+First steps on HTML and CSS. 
 "Projekt Przyszły Programista"
